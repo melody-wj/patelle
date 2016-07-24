@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.box{
+    height: 100%;
+    margin-left: 150px;
+    background: red;
+}
+.left{
+	width: 150px;
+	height: 100%;
+	margin-left: -150px;
+	background: #008AD4;
+	float: left;
+}
+.left .tool{
+	width: 100%;
+	height: 60px;
+	background: #1884EA;
+	text-align: center;
+	line-height: 60px;
+	font-size: 30px;
+	color:#fff;
+}
+.left .board{
+	margin-top: 40px;
+	height: 140px;
+}
+.left .board p{
+   width: 100%;
+   height: 40px;
+   font-size: 24px;
+   text-align: center;
+   line-height: 40px;
+   background: #01D0DB;
+   color:white;
+}
+.left .board i{
+	width: 50px;
+	height: 50px;
+	margin: 0 12px;
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+}
+.left .brush p{
+   width: 100%;
+   height: 40px;
+   font-size: 24px;
+   text-align: center;
+   line-height: 40px;
+   background: #01D0DB;
+   color:white;
+}
+.left .brush{
+	margin-top: 20px;
+	height: 190px;
+}
+.left .brush i{
+	width: 50px;
+	height: 50px;
+	margin: 0 12px;
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+}
+.left .style{
+	margin-top: 20px;
+	height: 140px;
+	width: 100%;
+}
+.left .style p{
+   width: 100%;
+   height: 40px;
+   font-size: 24px;
+   text-align: center;
+   line-height: 40px;
+   background: #01D0DB;
+   color:white;
+}
+.left .style i{
+	width: 50px;
+	height: 50px;
+	margin: 0 12px;
+	float: left;
+	font-size: 24px;
+	line-height:50px;
+	text-align: center;
+}
+.left .style .color{
+	margin-left: 43px;
+}
+.left .style .range{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #83EDF2;
+}
+.right .hb{
+
+}
+#can{
+	background: white;
+	position: absolute;
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
